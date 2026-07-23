@@ -1,0 +1,37 @@
+generated: '2026-07-17'
+method: searched
+source: https://github.com/AdaCore
+description: >-
+  First-party AdaCore developer tools distributed through public channels.
+  AdaCore is a compiler and static/dynamic analysis toolchain vendor for
+  high-integrity Ada, SPARK, Rust and C/C++ software; it does not publish a
+  hosted REST API or API client SDKs. The entries below are the editor/IDE
+  tooling and Language Server it distributes to developers. Verified against the
+  Visual Studio Marketplace and the AdaCore GitHub organization at fetch time.
+  There is no npm package named "ada_language_server" (registry.npmjs.org
+  returned HTTP 404); the Language Server ships as native binaries via GitHub
+  Releases and is bundled inside the VS Code extension.
+packages:
+  - language: any
+    registry: vscode-marketplace
+    name: AdaCore.ada
+    display_name: Ada & SPARK
+    url: https://marketplace.visualstudio.com/items?itemName=AdaCore.ada
+    source: https://github.com/AdaCore/ada_language_server
+    install: code --install-extension AdaCore.ada
+    official: true
+    note: >-
+      Official AdaCore VS Code extension providing Ada/SPARK IntelliSense, code
+      navigation, refactoring and debugging via the Ada Language Server
+      (built on Libadalang). Does not include a compiler.
+  - language: ada
+    registry: github-releases
+    name: ada_language_server
+    url: https://github.com/AdaCore/ada_language_server
+    source: https://github.com/AdaCore/ada_language_server
+    install: https://github.com/AdaCore/ada_language_server/releases
+    official: true
+    note: >-
+      Microsoft Language Server Protocol implementation for Ada and SPARK.
+      Distributed as native binaries via GitHub Releases and bundled in the
+      AdaCore.ada editor extensions. Not published to npm.

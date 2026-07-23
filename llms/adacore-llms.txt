@@ -1,0 +1,25 @@
+<!-- generated: 2026-07-17 | method: generated | source: apis.yml + AdaCore public developer resources -->
+# AdaCore
+
+> AdaCore is a software company with 30+ years of experience building compilation, static and dynamic analysis, and formal-verification toolchains for reliable, safe, and secure software in safety- and mission-critical systems (aerospace, defense, rail, automotive, energy, telecom, finance, medical). AdaCore is a compiler and toolchain vendor and does not publish a hosted REST API or API client SDKs.
+
+## Products
+- GNAT Pro: Ada, C/C++, and Rust compilation toolchain
+- SPARK Pro: formal proof / formal verification for the SPARK subset of Ada
+- GNAT Static Analysis and CodeSonar (C/C++)
+- GNAT Dynamic Analysis Suite
+- GNAT Studio: Ada IDE, plus the open-source Ada Language Server and VS Code extension
+
+## Developer Resources
+- Documentation: https://www.adacore.com/documentation
+- Learning platform / getting started: https://learn.adacore.com/
+- Blog: https://www.adacore.com/blog
+- Support portal: https://support.adacore.com/csm
+- GitHub organization: https://github.com/adacore
+- Ada Language Server (source): https://github.com/AdaCore/ada_language_server
+- VS Code extension: https://marketplace.visualstudio.com/items?itemName=AdaCore.ada
+- Alire (Ada package manager): https://alire.ada.dev/
+
+## Notes
+- No hosted REST API, OpenAPI, AsyncAPI, or gRPC service is published by AdaCore.
+- No machine-discoverable /.well-known/ documents are published (endpoints return HTTP 403 to automated clients).

@@ -1,0 +1,26 @@
+generated: '2026-07-17'
+method: probed
+source: https://www.adacore.com/.well-known/
+description: >-
+  Probe of standard /.well-known/ discovery endpoints on the AdaCore corporate
+  host. All endpoints returned HTTP 403 to automated clients (the site is
+  behind a WAF that blocks non-browser access), and none are published as
+  machine-discoverable documents. No files were saved. Absence is a valid,
+  expected result for a compiler/toolchain vendor with no hosted API.
+host: www.adacore.com
+endpoints:
+  - path: /.well-known/security.txt
+    status: 403
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 403
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 403
+    file: null
+  - path: /.well-known/api-catalog
+    status: 403
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 403
+    file: null

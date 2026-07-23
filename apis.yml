@@ -1,22 +1,86 @@
 aid: adacore
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/adacore.png
 name: AdaCore
-description: AdaCore is a company surfaced as a portfolio company of battery-ventures and added to the
-  API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  AdaCore is a software company with more than 30 years of experience building
+  compilation, static and dynamic analysis, and formal-verification toolchains
+  for reliable, safe, and secure software in safety- and mission-critical
+  systems. Its product line includes GNAT Pro (Ada, C/C++, and Rust
+  compilation), SPARK Pro (formal proof), GNAT Static Analysis, CodeSonar for
+  C/C++, the GNAT Dynamic Analysis Suite, and the GNAT Studio IDE together with
+  the open-source Ada Language Server and VS Code extension. AdaCore tooling is
+  used across aerospace, defense, rail, automotive, energy, telecommunications,
+  finance, and medical-device industries. AdaCore is a compiler and toolchain
+  vendor and does not publish a hosted REST API or API client SDKs; this
+  API Evangelist profile catalogs its developer tooling, packages, and public
+  developer resources. It was surfaced as a portfolio company of Battery
+  Ventures.
 url: https://raw.githubusercontent.com/api-evangelist/adacore/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
 - battery-ventures
-x-tier: stub
+x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- Ada
+- SPARK
+- Rust
+- Compilers
+- Static Analysis
+- Formal Verification
+- Developer Tools
+- Safety-Critical
 apis: []
+common:
+- type: DomainSecurity
+  url: security/adacore-domain-security.yml
+- type: Packages
+  url: packages/adacore-packages.yml
+- type: LLMsTxt
+  url: llms/adacore-llms.txt
+- type: Documentation
+  url: https://www.adacore.com/documentation
+- type: GettingStarted
+  url: https://learn.adacore.com/
+- type: Blog
+  url: https://www.adacore.com/blog
+- type: Support
+  url: https://support.adacore.com/csm
+- type: GitHubOrganization
+  url: https://github.com/adacore
+- type: SourceCode
+  url: https://github.com/AdaCore/ada_language_server
+- type: Website
+  url: https://www.adacore.com
+- type: DeveloperPortal
+  url: https://www.adacore.com/resources
+- type: Roadmap
+  url: https://www.adacore.com/documentation/roadmap
+- type: WellKnown
+  url: well-known/adacore-well-known.yml
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-19'
+  status: backfilled
+  pass: local-v1
+  note: backfilled from .gitignore signal + verified work evidence
