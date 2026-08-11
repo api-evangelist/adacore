@@ -48,6 +48,17 @@ tags:
 - Safety-Critical
 apis: []
 common:
+- type: IssueTracker
+  url: https://github.com/AdaCore/ada_language_server/issues
+- type: Releases
+  url: https://github.com/AdaCore/ada_language_server/releases
+- type: CodeOfConduct
+  url: https://github.com/AdaCore/.github/blob/master/CODE_OF_CONDUCT.md
+- type: ContributionGuide
+  url: https://github.com/AdaCore/.github/blob/master/CONTRIBUTING.md
+- type: License
+  name: GPL-3.0
+  url: https://github.com/AdaCore/ada_language_server/blob/master/LICENSE
 - type: DomainSecurity
   url: security/adacore-domain-security.yml
 - type: Packages
