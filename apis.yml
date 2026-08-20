@@ -38,6 +38,16 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
+- ADA
+- Spark
+- Rust
+- Compilers
+- Static Analysis
+- Formal Verification
+- Developer Tools
+- Safety-Critical
+tags_raw:
+- Company
 - Ada
 - SPARK
 - Rust
