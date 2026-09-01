@@ -50,14 +50,14 @@ created: '2026-07-17'
 modified: '2026-07-17'
 tags:
 - Company
-- Ada
-- SPARK
+- ADA
+- Spark
 - Rust
 - Compilers
 - Static Analysis
 - Formal Verification
 - Developer Tools
-- Safety-Critical
+- Safety Critical
 tags_raw:
 - Company
 - Ada
