@@ -47,7 +47,7 @@ x-tier: enriched
 x-tier-reason: portfolio-lead
 specificationVersion: '0.23'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-10-06'
 tags:
 - Company
 - ADAS
@@ -70,6 +70,8 @@ tags_raw:
 - Safety-Critical
 apis: []
 common:
+- url: https://www.adacore.com/feed.rss
+  type: BlogRSS
 - type: IssueTracker
   url: https://github.com/AdaCore/ada_language_server/issues
 - type: Releases
