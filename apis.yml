@@ -50,7 +50,6 @@ created: '2026-07-17'
 modified: '2026-10-06'
 tags:
 - Company
-- ADAS
 - Spark
 - Rust
 - Compilers
@@ -58,9 +57,9 @@ tags:
 - Formal Verification
 - Developer Tools
 - Safety Critical
+- Ada
 tags_raw:
 - Company
-- Ada
 - SPARK
 - Rust
 - Compilers
@@ -68,6 +67,7 @@ tags_raw:
 - Formal Verification
 - Developer Tools
 - Safety-Critical
+- Ada
 apis: []
 common:
 - url: https://www.adacore.com/feed.rss
@@ -119,3 +119,5 @@ x-enrichment:
   status: backfilled
   pass: local-v1
   note: backfilled from .gitignore signal + verified work evidence
+x-tags-removed:
+- ADAS
